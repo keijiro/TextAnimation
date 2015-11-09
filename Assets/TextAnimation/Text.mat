@@ -131,6 +131,70 @@ Material:
         first:
           name: _Amplitude
         second: 2
+      data:
+        first:
+          name: _Transition
+        second: 2.5
+      data:
+        first:
+          name: _Duration
+        second: 2
+      data:
+        first:
+          name: _Rotation
+        second: 20.6700001
+      data:
+        first:
+          name: _Twist
+        second: 27.0499992
+      data:
+        first:
+          name: _Speed
+        second: 2.9000001
+      data:
+        first:
+          name: _ScaleCurve
+        second: 2
+      data:
+        first:
+          name: _RotationNoise
+        second: 1
+      data:
+        first:
+          name: _TNoiseAmp
+        second: 1
+      data:
+        first:
+          name: _TNoiseFreq
+        second: 2
+      data:
+        first:
+          name: _WaveAmp
+        second: .600000024
+      data:
+        first:
+          name: _WaveFreq
+        second: 1.25
+      data:
+        first:
+          name: _WaveSpeed
+        second: 1
+      data:
+        first:
+          name: _TNoiseRatio
+        second: 1
+      data:
+        first:
+          name: _NoiseAmp
+        second: 1.5
+      data:
+        first:
+          name: _NoiseCurve
+        second: 8
+      data:
+        first:
+          name: _NoiseFreq
+        second: .300000012
     m_Colors:
       data:
         first:
@@ -140,3 +204,7 @@ Material:
         first:
           name: _Color
         second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _NoiseVel
+        second: {r: .699999988, g: 1, b: 0, a: 0}

@@ -95,6 +95,7 @@ GameObject:
   - 4: {fileID: 623711551}
   - 33: {fileID: 623711550}
   - 23: {fileID: 623711549}
+  - 95: {fileID: 623711552}
   m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
@@ -147,6 +148,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!95 &623711552
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 623711548}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ad7b37986fe0c45d8a3d1a9828e46151, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1523319508
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,7 +231,7 @@ Camera:
     height: 1
   near clip plane: .300000012
   far clip plane: 300
-  field of view: 10
+  field of view: 14
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -236,7 +254,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1523319508}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -12}
+  m_LocalPosition: {x: 0, y: 0, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1970356652}
@@ -432,7 +450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _subject: {fileID: 0}
-  _distance: 12
+  _distance: 15
   _fNumber: 1
   _useCameraFov: 1
   _focalLength: .0500000007
@@ -463,7 +481,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1970356651}
-  m_LocalRotation: {x: .00301273167, y: .540270448, z: -.15609391, w: .826881826}
+  m_LocalRotation: {x: .082131207, y: .333355993, z: -.0291648731, w: .938763976}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
